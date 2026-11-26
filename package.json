@@ -1,0 +1,14 @@
+{
+  "name": "manyscripts",
+  "version": "0.1.0",
+  "description": "Add the ManyScripts video transcript MCP server to Claude Code, Cursor, Windsurf, VS Code, Codex and Gemini CLI in one command.",
+  "type": "module",
+  "bin": { "manyscripts": "bin/manyscripts.js" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["mcp", "transcript", "tiktok", "youtube", "instagram", "claude", "cursor", "codex"],
+  "homepage": "https://www.manyscripts.com",
+  "repository": { "type": "git", "url": "git+https://github.com/manyscripts-app/cli.git" },
+  "license": "MIT"
+}
