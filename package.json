@@ -1,7 +1,7 @@
 {
   "name": "manyscripts",
   "version": "0.1.0",
-  "description": "Add the ManyScripts video transcript MCP server to Claude Code, Cursor, Windsurf, VS Code, Codex and Gemini CLI in one command.",
+  "description": "npx github:manyscripts-app/cli init. Adds the ManyScripts video transcript MCP server to Claude Code, Cursor, Windsurf, VS Code, Codex and Gemini CLI in one command.",
   "type": "module",
   "bin": { "manyscripts": "bin/manyscripts.js" },
   "files": ["bin", "src", "README.md", "LICENSE"],

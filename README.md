@@ -3,14 +3,14 @@
 Add the [ManyScripts](https://www.manyscripts.com) MCP server to your AI apps in one command. Your agent can then get transcripts of TikTok, YouTube, Instagram, X, Facebook, Xiaohongshu (RedNote), Bluesky and LinkedIn videos.
 
 ```bash
-npx -y manyscripts init
+npx -y github:manyscripts-app/cli init
 ```
 
 It finds the AI apps on your computer and adds `https://www.manyscripts.com/api/mcp` to each one. Restart the apps afterwards. You sign in to ManyScripts the first time the server runs. It works on the Free plan.
 
 ```bash
-npx -y manyscripts init --dry-run           # show what would change
-npx -y manyscripts init --only cursor,codex # pick apps
+npx -y github:manyscripts-app/cli init --dry-run           # show what would change
+npx -y github:manyscripts-app/cli init --only cursor,codex # pick apps
 ```
 
 ## What it changes

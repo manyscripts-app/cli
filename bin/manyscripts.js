@@ -5,9 +5,9 @@ import { SERVER_URL } from "../src/clients.js";
 const HELP = `ManyScripts: video transcripts for your AI apps
 
 Usage:
-  npx manyscripts init              Add ManyScripts to every AI app found on this computer
-  npx manyscripts init --dry-run    Show what would change, change nothing
-  npx manyscripts init --only cursor,codex
+  npx github:manyscripts-app/cli init              Add ManyScripts to every AI app found on this computer
+  npx github:manyscripts-app/cli init --dry-run    Show what would change, change nothing
+  npx github:manyscripts-app/cli init --only cursor,codex
 
 Apps: ${clientIds().join(", ")}
 
